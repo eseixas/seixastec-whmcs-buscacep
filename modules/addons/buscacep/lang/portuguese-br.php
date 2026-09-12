@@ -1,0 +1,42 @@
+<?php
+
+defined('WHMCS') or die('Access Denied');
+
+$_ADDONLANG['module_title'] = 'SeixasTec BuscaCEP';
+$_ADDONLANG['module_description'] = 'Valida o CEP brasileiro e preenche o endereço via ViaCEP, com fallback na BrasilAPI.';
+$_ADDONLANG['dashboard_title'] = 'BuscaCEP';
+$_ADDONLANG['status_heading'] = 'Status';
+$_ADDONLANG['label_version'] = 'Versão';
+$_ADDONLANG['label_client_area'] = 'Área do cliente';
+$_ADDONLANG['label_admin_area'] = 'Área administrativa';
+$_ADDONLANG['label_mask'] = 'Máscara de CEP';
+$_ADDONLANG['label_cache_ttl'] = 'TTL do cache (dias)';
+$_ADDONLANG['label_timeout'] = 'Timeout da API (segundos)';
+$_ADDONLANG['label_cache_entries'] = 'CEPs em cache';
+$_ADDONLANG['enabled'] = 'Ativo';
+$_ADDONLANG['disabled'] = 'Inativo';
+$_ADDONLANG['test_heading'] = 'Testar consulta de CEP';
+$_ADDONLANG['test_help'] = 'Usa os mesmos provedores, cache e fallback da loja.';
+$_ADDONLANG['label_cep'] = 'CEP';
+$_ADDONLANG['btn_test'] = 'Consultar';
+$_ADDONLANG['btn_clear_cache'] = 'Limpar cache';
+$_ADDONLANG['result_heading'] = 'Resultado';
+$_ADDONLANG['result_ok'] = 'Endereço encontrado';
+$_ADDONLANG['result_fail'] = 'A consulta não retornou um endereço';
+$_ADDONLANG['field_street'] = 'Logradouro';
+$_ADDONLANG['field_neighborhood'] = 'Bairro';
+$_ADDONLANG['field_city'] = 'Cidade';
+$_ADDONLANG['field_state'] = 'UF';
+$_ADDONLANG['field_provider'] = 'Provedor';
+$_ADDONLANG['cache_cleared'] = 'Cache de CEP limpo.';
+$_ADDONLANG['cache_clear_failed'] = 'Não foi possível limpar o cache de CEP.';
+$_ADDONLANG['invalid_token'] = 'Token de segurança inválido. Tente novamente.';
+$_ADDONLANG['js_looking_up'] = 'Consultando CEP…';
+$_ADDONLANG['js_filled'] = 'Endereço preenchido a partir do CEP.';
+$_ADDONLANG['js_invalid'] = 'Informe um CEP válido com 8 dígitos.';
+$_ADDONLANG['js_not_found'] = 'CEP não encontrado. Preencha o endereço manualmente.';
+$_ADDONLANG['js_no_street'] = 'CEP válido, mas sem logradouro. Complete o endereço.';
+$_ADDONLANG['js_network'] = 'Não foi possível consultar o CEP. Preencha o endereço manualmente.';
+$_ADDONLANG['js_rate_limit'] = 'Muitas consultas de CEP. Aguarde um momento e tente de novo.';
+$_ADDONLANG['js_csrf'] = 'Sessão expirada. Recarregue a página e tente de novo.';
+$_ADDONLANG['confirm_clear_cache'] = 'Limpar o cache de CEP?';

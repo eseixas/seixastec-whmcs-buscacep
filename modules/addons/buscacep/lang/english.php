@@ -1,0 +1,42 @@
+<?php
+
+defined('WHMCS') or die('Access Denied');
+
+$_ADDONLANG['module_title'] = 'SeixasTec BuscaCEP';
+$_ADDONLANG['module_description'] = 'Validates Brazilian ZIP codes (CEP) and fills address fields using ViaCEP with BrasilAPI fallback.';
+$_ADDONLANG['dashboard_title'] = 'BuscaCEP';
+$_ADDONLANG['status_heading'] = 'Status';
+$_ADDONLANG['label_version'] = 'Version';
+$_ADDONLANG['label_client_area'] = 'Client area';
+$_ADDONLANG['label_admin_area'] = 'Admin area';
+$_ADDONLANG['label_mask'] = 'CEP mask';
+$_ADDONLANG['label_cache_ttl'] = 'Cache TTL (days)';
+$_ADDONLANG['label_timeout'] = 'API timeout (seconds)';
+$_ADDONLANG['label_cache_entries'] = 'Cached CEPs';
+$_ADDONLANG['enabled'] = 'Enabled';
+$_ADDONLANG['disabled'] = 'Disabled';
+$_ADDONLANG['test_heading'] = 'Test CEP lookup';
+$_ADDONLANG['test_help'] = 'Looks up a CEP with the same providers, cache and fallback used on the storefront.';
+$_ADDONLANG['label_cep'] = 'CEP';
+$_ADDONLANG['btn_test'] = 'Look up';
+$_ADDONLANG['btn_clear_cache'] = 'Clear cache';
+$_ADDONLANG['result_heading'] = 'Result';
+$_ADDONLANG['result_ok'] = 'Address found';
+$_ADDONLANG['result_fail'] = 'Lookup did not return an address';
+$_ADDONLANG['field_street'] = 'Street';
+$_ADDONLANG['field_neighborhood'] = 'Neighborhood';
+$_ADDONLANG['field_city'] = 'City';
+$_ADDONLANG['field_state'] = 'State';
+$_ADDONLANG['field_provider'] = 'Provider';
+$_ADDONLANG['cache_cleared'] = 'CEP cache cleared.';
+$_ADDONLANG['cache_clear_failed'] = 'Unable to clear the CEP cache.';
+$_ADDONLANG['invalid_token'] = 'Invalid security token. Please try again.';
+$_ADDONLANG['js_looking_up'] = 'Looking up CEP…';
+$_ADDONLANG['js_filled'] = 'Address filled from CEP.';
+$_ADDONLANG['js_invalid'] = 'Enter a valid 8-digit CEP.';
+$_ADDONLANG['js_not_found'] = 'CEP not found. Please fill the address manually.';
+$_ADDONLANG['js_no_street'] = 'CEP is valid but has no street. Complete the address.';
+$_ADDONLANG['js_network'] = 'Unable to look up this CEP. Fill the address manually.';
+$_ADDONLANG['js_rate_limit'] = 'Too many CEP lookups. Wait a moment and try again.';
+$_ADDONLANG['js_csrf'] = 'Session expired. Reload the page and try again.';
+$_ADDONLANG['confirm_clear_cache'] = 'Clear the CEP cache?';

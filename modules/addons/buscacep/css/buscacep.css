@@ -1,0 +1,11 @@
+.buscacep-alert {
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    font-size: 13px;
+}
+
+.buscacep-loading {
+    opacity: 0.75;
+    background-image: none;
+}
